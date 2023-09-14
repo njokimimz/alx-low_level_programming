@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Description: This program demonstrates avoiding an infinite loop.
- * Return: Always 0 (Success)
- */
+* main - causes an infinite loop
+* Return: 0
+*/
 
 int main(void)
 {
