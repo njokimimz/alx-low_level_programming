@@ -1,4 +1,12 @@
-//check int c is from A - Z or a - z
+#includ "main.h"
+
+/**
+ * check for alphabetic character.
+ *  
+ * Returns 1 if c is an alphabet, otherwise
+ * Return: 0.
+ */
+
 int _isalpha(int c)
 {
 	if ((c >= 97(a) && <= 122(z) || (c >= 65(A) && c <= 90(Z))
@@ -7,3 +15,4 @@ int _isalpha(int c)
 				}
 
 				return (0);
+}
