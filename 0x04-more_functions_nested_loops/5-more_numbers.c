@@ -1,10 +1,10 @@
 #include "main.h"
-/**
- * prnts 10x numbers 0-14
- *
- */
 
-void more_numbers(void);
+/**
+ * more_numbers - prints 10 times the numbers, from 0 to 14
+ * followed by a new line
+ */
+void more_numbers(void)
 {
 int i, j;
 
